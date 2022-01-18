@@ -1,0 +1,142 @@
+.player{
+    width: 100%;
+    height: 96px;
+    background-color: #000;
+    position: fixed;
+    bottom: 0;
+}
+.player-wrapper{
+    width:95%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.current-song-meta,.player-song-info{
+    display: flex;
+    align-items: center;
+}
+.player-thumb{
+    width: 48px;
+    height: 48px;
+    background-color: #eaeaea;
+    margin-right: 8px;
+}
+.player-song-info{
+    gap:8px;
+}
+
+.player-song-info > button{
+    width: max-content;
+    height: max-content;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.player-song-info > button > svg{
+    width: 18px;
+    height: 18px;
+}
+.song-info{
+    display: flex;
+    flex-direction: column;
+    gap:4px;
+}
+.artist-name{
+    color: #B2B2B2;
+    
+}
+.song-name{
+    color: #fff;
+}
+
+.song-progress-nav{
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    gap:8px;
+    align-items: center;
+}
+.player-control{
+    width: max-content;
+}
+.prev-btn,.next-btn{
+    width: max-content;
+    height: max-content;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.player-control{
+    display: flex;
+    align-items: center;
+    gap:8px;
+}
+.prev-btn > svg,.next-btn > svg{
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.play-btn{
+width: 38px;
+height: 38px;
+border-radius: 65px;
+display: flex;
+align-items: center;
+justify-content: center;
+border: none;
+cursor: pointer;
+}
+
+.progress-bar{
+    display: flex;
+    width: 100%;
+    gap:8px;
+    align-items: center;
+    
+}
+.progress-bar > span{
+color: #fff;
+font-size: 12px;
+}
+
+.progress-frame{
+    width: 90%;
+    height: 4px;
+    background-color: #777;
+    border-radius: 5px;
+}
+.progress-value{
+    width: 30%;
+    height: 100%;
+    background: var(--bar-gradient);
+}
+
+.song-control,.volume-controller{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.song-control  button{
+    width: max-content;
+    height: max-content;
+    background-color: transparent;
+    border: none;
+}
+.song-control  button  img{
+    width: 18px;
+    height: 18px;
+}
+
+
+.volume-bar{
+   height: 4px;
+   width: 72px;
+   background-color: #B2B2B2;
+}
